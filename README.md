@@ -8,7 +8,7 @@
 
 ## 1. The problem
 
-Recurring alignment meetings are rarely documented accurately. Decisions get forgotten, owners are unclear, and teams end up repeating the same conversation. A Senior Engineering Manager I spoke to during market research described forgetting Monday's decisions by Thursday.
+Recurring alignment meetings are rarely documented accurately. Decisions get forgotten, owners are unclear, and teams end up repeating the same conversation. A Senior Engineering Manager on Blind described forgetting Monday's decision by Thursday.
 
 ## 2. What I learned from users (survey, n=20)
 
@@ -86,9 +86,9 @@ Baseline from the survey: 35% of people need a follow-up "often" or "almost alwa
 
 *This pilot has not been run yet. It is the next step.*
 
-- **Setup:** A small Slack group of 8 to 10 people for 2 weeks. Week 1 is the baseline with no summaries. In week 2, I manually write and post a summary with action items after each meeting.
+- **Setup:** I join 5 live team meetings (with consent) run by 5 product and engineering leads managing distributed teams. I take notes and send an AI-formatted draft summary to Slack within 10 minutes, to mimic the automation.
 - **Measure:** Follow-up rate in each week, how many people edit or correct the summary, and a 1-5 trust rating.
-- **Success threshold:** At least 80% of active users say the summaries prevented a follow-up alignment meeting.
+- **Success threshold:** At least 80% of testers (4 of 5) say the summary prevented a follow-up meeting, and 100% of action items are acknowledged by their owners within 24 hours.
 - **Questions it answers:** Do people trust the summaries? Do follow-ups actually fall? Do the negative or private details cause discomfort?
 
 ## 9. Risks and how the MVP addresses them
@@ -126,7 +126,7 @@ I built a clickable concept prototype of the Slack flow in Lovable, using simula
 
 ## 12. Next steps
 
-1. Run the 2-week Wizard-of-Oz pilot.
+1. Run the Wizard-of-Oz pilot with 5 leads.
 2. Re-measure follow-up rate against the survey baseline.
 3. Interview 3 to 5 meeting-heavy managers to dig into the privacy concerns.
 
