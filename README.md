@@ -14,7 +14,7 @@ Recurring alignment meetings are rarely documented accurately. Decisions get for
 
 I ran a 2-minute anonymous survey with students, interns, working professionals and managers (9 working professionals, 5 students, 4 managers, 2 interns).
 
-![Survey results](survey_results.png)
+![Survey results](Survey_results.png.jpeg)
 
 | Finding | Result |
 |---|---|
@@ -103,10 +103,21 @@ Baseline from the survey: 35% of people need a follow-up "often" or "almost alwa
 
 ## 10. Prototype
 
-I built an AI prototype of the Slack summary delivery flow using Lovable.
+I built a clickable concept prototype of the Slack flow in Lovable, using simulated data (a fictional company and people). Each screen answers a worry from the survey.
 
-*(Add 1-2 screenshots of the Lovable prototype here.)*
+**Live prototype:** [Open the prototype](https://consent-to-action.lovable.app)
 
+| Screen | What it shows | Survey worry it answers |
+|---|---|---|
+| 1. Consent | Opt-in per meeting, attendee-only visibility | Privacy (80%), recording consent (55%) |
+| 2. Summary | AI draft with decisions and action items | Core pain: forgotten decisions |
+| 3. Edit | Correct the draft before it is shared | Accuracy of summaries (45%) |
+| 4. Settings | Opt-in, visibility, reminder cap of 1 per day, mute | Notification overload (30%) |
+
+![Consent](1.Consent.png)
+![Summary](2.Summary.png)
+![Edit](3.Edit.png)
+![Settings](4.Settings.png)
 ## 11. Limitations
 
 - The survey has 20 responses from my own network, so it is an early signal, not proof.
